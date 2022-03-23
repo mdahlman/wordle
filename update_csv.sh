@@ -1,0 +1,2 @@
+# This command assumes connectivity to the relevant database will be automatic.
+psql -d postgres --csv -c "select the_date as \"Date\", word as \"Word\", comments as \"Comments\" from v_wordle order by the_date desc, comments ;" > wordle-answers.csv
