@@ -1,11 +1,12 @@
 Date,Word,Comments
+2022-03-23,PURGE,
 2022-03-22,SLOSH,
 2022-03-21,THEIR,
 2022-03-20,RENEW,
 2022-03-19,ALLOW,
 2022-03-18,SAUTE,
-2022-03-17,LYNCH,In Josh Wardle's original version
-2022-03-17,MOVIE,In New York Times version
+2022-03-17,MOVIE,
+2022-03-17,LYNCH,In Josh Wardle's original version (removed by the New York Times)
 2022-03-16,CATER,
 2022-03-15,TEASE,
 2022-03-14,SMELT,
@@ -32,12 +33,12 @@ Date,Word,Comments
 2022-02-21,OTHER,
 2022-02-20,TACIT,
 2022-02-19,SWILL,
-2022-02-18,PUPAL,In Josh Wardle's original version
-2022-02-18,DODGE,In New York Times version
+2022-02-18,DODGE,
+2022-02-18,PUPAL,In Josh Wardle's original version (removed by the New York Times)
 2022-02-17,SHAKE,
 2022-02-16,CAULK,
-2022-02-15,AGORA,In Josh Wardle's original version
-2022-02-15,AROMA,In New York Times version
+2022-02-15,AROMA,
+2022-02-15,AGORA,In Josh Wardle's original version (removed by the New York Times)
 2022-02-14,CYNIC,
 2022-02-13,ROBIN,
 2022-02-12,ULTRA,
