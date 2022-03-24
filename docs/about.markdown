@@ -10,7 +10,7 @@ Reasonable people may disagree.
 My wife considers this a light form of cheating. 
 She insists that it's one's responsibility to remember past puzzles.
 
-I use it when thinking of a first guess. I don't expect to succeed on the first guess.
+I use the list when thinking of a first guess. I don't expect to succeed on the first guess.
 I never have.
 But there's something demotivating about finding out later that your guess was doomed.
 It turns out that BELCH was the answer back in Oct 2021 before I had ever played. Dang.
@@ -33,7 +33,7 @@ I think it's reasonable to ask, "How often has a 'Q' appeared in a Wordle answer
 "GNARL is a great word; I'm going to start with that! Has it been used before?"
 
 With all of this in mind, I grabbed the complete list of Wordle answers and saved it into a database table.
-(For anyone concerned about my eternal soul, rest assured that I blindfolded myself during this part of the process.)
+(For anyone concerned about my eternal wordle soul, rest assured that I blindfolded myself during this part of the process.)
 Then it's a trivial process to create a view on that table showing only past answers.
 I used this local view for a while.
 But then I decided that a public page would be easier.
