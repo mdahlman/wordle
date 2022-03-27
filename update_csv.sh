@@ -18,7 +18,7 @@ psql -d postgres --csv -c "select the_date as \"Date\", word as \"Word\", commen
 cd /Users/mdahlman/github/wordle
 git add $FILENAME
 git commit -m "answers through `date -v-1d +%Y-%m-%d`"
-git push origin gh-pages
+git push origin gh-pages 2>>$LOG
 
 ECHO "Finishing `date`" >> $LOG
 
