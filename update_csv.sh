@@ -1,5 +1,6 @@
 #!/bin/bash
 PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
+ssh-add $HOME/.ssh/id_rsa
 # This command assumes connectivity to the relevant database will be automatic.
 
 # Add some debugging lines
@@ -16,8 +17,9 @@ psql -d postgres --csv -c "select the_date as \"Date\", word as \"Word\", commen
 # and that date formatting might be Mac-only.
 # Yikes! Brittle. But good enough for me today.
 cd /Users/mdahlman/github/wordle
-git add $FILENAME
-git commit -m "answers through `date -v-1d +%Y-%m-%d`"
+git add $FILENAME 2>>$LOG
+git commit -m "answers through `date -v-1d +%Y-%m-%d`" 2>>$LOG
+git remote set-url origin git@github.com:mdahlman/wordle.git 2>>$LOG
 git push origin gh-pages 2>>$LOG
 
 ECHO "Finishing `date`" >> $LOG
