@@ -66,13 +66,14 @@ group by comments
 ;
 
 select * , the_date from wordle w
-where the_date <= '2022-04-16'
+where the_date <= '2022-05-02'
 order by the_date desc
 ;
 
---update wordle 
---set the_date = the_date - 1
---where day_num >= 303
---;
-
+/*
+update wordle 
+set the_date = the_date - 1
+where day_num >= 319
+;
+*/
 
