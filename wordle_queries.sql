@@ -66,8 +66,12 @@ group by comments
 ;
 
 select * , the_date from wordle w
-where the_date <= '2022-05-02'
+where the_date <= '2022-05-09'
 order by the_date desc
+;
+
+select * from wordle w 
+where word = 'SHINE'
 ;
 
 /*
@@ -76,4 +80,5 @@ set the_date = the_date - 1
 where day_num >= 319
 ;
 */
+
 
