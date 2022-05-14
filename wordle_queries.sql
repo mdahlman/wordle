@@ -6,7 +6,7 @@
  */
 
 /* All past answers */
-select *
+select the_date, day_num, word, comments
 from v_wordle vw 
 order by the_date desc, comments desc
 ;
