@@ -38,7 +38,11 @@ Then it's a trivial process to create a view on that table showing only past ans
 I used this local view for a while.
 But then I decided that a public page would be easier.
 
+I'm frankly surprised that there wasn't already a better public site with past wordle answers.
+But most sites that I could find included current and future answers as well as past ones.
+Or they were disorganized or ad-riddled.
+
 Therefore this page updates daily with past answers. 
-I never upload the current day's answer, so there can be no accidental spoilers for anyone.
+I never upload the current day's answer, so there can never be accidental spoilers for anyone.
 
 Please use this list of past answers for analysis at your discretion.
