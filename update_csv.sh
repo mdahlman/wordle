@@ -9,6 +9,8 @@ LOG=/Users/mdahlman/temp/cron_tests.log
 ECHO "Starting `date`" >> $LOG
 ECHO "PATH: $PATH" >> $LOG
 
+cd /Users/mdahlman/github/wordle
+git checkout gh-pages
 
 # This command assumes connectivity to the relevant database will be automatic.
 FILENAME=/Users/mdahlman/github/wordle/docs/_data/wordle_answers.csv
@@ -18,7 +20,6 @@ psql -d postgres --csv -c "select the_date as \"Date\", word as \"Word\", commen
 # and you have your git credentials configured somewhere
 # and that date formatting might be Mac-only.
 # Yikes! Brittle. But good enough for me today.
-cd /Users/mdahlman/github/wordle
 git add $FILENAME 2>>$LOG
 git commit -m "answers through `date -v-1d +%Y-%m-%d`" 2>>$LOG
 git remote set-url origin git@github.com:mdahlman/wordle.git 2>>$LOG
