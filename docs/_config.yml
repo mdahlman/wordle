@@ -21,6 +21,7 @@
 title: Wordle Answers Archive
 #email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
+  Yesterday's Wordle answer, and all past Wordle answers. No spoilers.
   I hope the Wordle Answers Archive is helpful and/or fun.
   If you find problems or have suggestions, please open an issue
   on the github project: https://github.com/mdahlman/wordle/issues
