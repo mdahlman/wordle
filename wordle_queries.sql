@@ -111,8 +111,8 @@ select
     word,
     comments
 from wordle
-where the_date <= '2022-06-12'
-order by the_date desc;
+where the_date < current_date 
+order by the_date desc, day_num ;
 
 /* Query one record from the spoiler-filled complete list */
 select
@@ -126,6 +126,6 @@ where word = 'SHINE';
 /*
 update wordle
 set the_date = the_date - 1
-where day_num >= 363
+where day_num >= 396
 ;
 */
