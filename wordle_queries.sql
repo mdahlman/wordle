@@ -30,7 +30,8 @@ select
     word,
     comments
 from v_wordle
-where word ~ 'Q';
+where word ~ 'Q'
+order by the_date desc;
 
 /* What Wordle answers have had repeated letters? */
 select
@@ -57,7 +58,7 @@ select
 from v_wordle
 where
     /* Regexp note:
-    * 	find 1 character (the parens make it #1),
+    *  find 1 character (the parens make it #1),
     *  find zero or more characters,
     *  find the first character again,
     *  find zero or more characters,
@@ -69,7 +70,7 @@ order by the_date desc;
 /* Are wordle words more likely than regular words to begin with a vowel?
 * Yes.
 * 9% of "popular 5 letter words" start with a vowel.
-* 14% of wordle words as of 13 May 2022 start with a vowel.
+* 14% of wordle words as of 12 July 2022 start with a vowel.
 */
 select
     'regular words' as word_type,
@@ -121,11 +122,12 @@ select
     word,
     comments
 from wordle
-where word = 'SHINE';
+where word = 'UNLIT'
+;
 
 /*
 update wordle
 set the_date = the_date - 1
-where day_num >= 396
+where day_num >= 404
 ;
 */
