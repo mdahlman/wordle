@@ -122,12 +122,24 @@ select
     word,
     comments
 from wordle
-where word = 'UNLIT'
+where word = 'OCTAL'
+;
+
+/* Check the location of a word in the 
+ * NYT list updated as of 2022-07-26 vs the original Josh Wardel version.
+ * Unmoved words will have similar id/day_num.
+ * Moved words will have a large id. (ID greater than 2000 putting them in the year 2027).
+ */
+select *
+from 
+	wordle_20220726 newer
+	left outer join wordle orig on orig.word ilike newer.word  /* ilike is case insensitive */
+where orig.word = 'WIDOW'
 ;
 
 /*
 update wordle
 set the_date = the_date - 1
-where day_num >= 404
+where day_num >= 448
 ;
 */
