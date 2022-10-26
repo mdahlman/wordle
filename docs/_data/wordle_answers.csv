@@ -1,16 +1,18 @@
 Date,Word,Comments
-2022-10-24,MUMMY,
-2022-10-23,SPIEL,
-2022-10-22,GROVE,
-2022-10-21,DENIM,
-2022-10-20,QUIRK,
-2022-10-19,EXIST,
-2022-10-18,STEIN,
-2022-10-17,SPADE,
-2022-10-16,CATCH,
-2022-10-15,FLOOR,
-2022-10-14,UNSET,
+2022-10-25,FOGGY,
+2022-10-24,FAULT,
+2022-10-23,MUMMY,
+2022-10-22,SPIEL,
+2022-10-21,GROVE,
+2022-10-20,DENIM,
+2022-10-19,QUIRK,
+2022-10-18,EXIST,
+2022-10-17,STEIN,
+2022-10-16,SPADE,
+2022-10-15,CATCH,
+2022-10-14,FLOOR,
 2022-10-13,EQUAL,
+2022-10-13,UNSET,In Josh Wardle's original version (pushed to 2027 by the New York Times)
 2022-10-12,IONIC,
 2022-10-11,VALID,
 2022-10-10,ENJOY,
@@ -119,8 +121,8 @@ Date,Word,Comments
 2022-07-08,VOICE,
 2022-07-08,WENCH,In Josh Wardle's original version (removed by the New York Times)
 2022-07-07,AGAPE,
-2022-07-07,FLACK,In Josh Wardle's original version (pushed to 2027 by the New York Times)
 2022-07-07,HYDRO,In Josh Wardle's original version (pushed to 2027 by the New York Times)
+2022-07-07,FLACK,In Josh Wardle's original version (pushed to 2027 by the New York Times)
 2022-07-06,FLUFF,
 2022-07-05,FIELD,
 2022-07-04,SEVER,
@@ -197,10 +199,10 @@ Date,Word,Comments
 2022-04-28,HASTY,In Josh Wardle's original version (pushed to 2027 by the New York Times)
 2022-04-27,SHOWN,
 2022-04-26,HEIST,
-2022-04-26,GECKO,"Originally scheduled for day 2,267 (sometime in 2027) in Josh Wardel's original version"
 2022-04-25,ASKEW,
-2022-04-25,SHINE,"Originally scheduled for day 2,267 (sometime in 2027) in Josh Wardel's original version"
+2022-04-25,GECKO,"Originally scheduled for day 2,267 (sometime in 2027) in Josh Wardel's original version"
 2022-04-24,INERT,
+2022-04-24,SHINE,"Originally scheduled for day 2,267 (sometime in 2027) in Josh Wardel's original version"
 2022-04-23,OLIVE,
 2022-04-22,PLANT,
 2022-04-21,OXIDE,
